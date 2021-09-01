@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif ;
+    background-color: #f6f6f6;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.whitespace {
+    height: 20px;
+}
+
+.center {
+    width: 100%;
+    text-align: center;
+}
+
+/* NAV-BAR */
+
+.main-nav {
+    height: 65px;
+    background-color: #20bf6b;
+}
+.main-nav ul{
+    list-style-type: none;
+}
+
+.main-nav li {
+    float: right;
+    cursor: pointer;
+}
+
+.main-nav li a {
+    height: 65px;
+    font-size: 20px;
+    font-weight: 300;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    background-color: #20bf6b;
+}
+
+.main-nav li a:hover {
+    background-color: #1aa159;
+    -webkit-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+}
+
+#logo-text {
+    font-family: 'Dancing Script', cursive;
+    float: left;
+}
+
+#logo-text a{
+    padding: 15px ;
+}
+
+#logo a {
+    padding: 15px;
+}
+
+#logo {
+    float: left;
+}
+#logo a:hover,#logo-text a:hover{
+    background-color: #20bf6b;
+}
+
+/* HOME SECTION */
+
+section {
+    min-height: 90vh;
+}
+
+section h2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+section p {
+    font-weight: 300;
+    margin: 15px;
+}
+
+.dest h1 {
+    font-weight: 300;
+    font-size: 35px;
+}
+
+.banner {
+    height: 500px;
+    background-image: url('../res/img/banner2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.55);
+}
+
+.banner-text {
+    padding: 150px 0;
+    color: white;
+    font-weight: 100;
+}
+
+.banner-text a {
+    text-decoration: none;
+    color: white;
+}
+
+.banner-text h1{
+    font-size: 60px;
+    font-weight: 100;
+    color: white;
+}
+
+/* DESTINATIONS SECTION */
+
+.map img{
+    display: block;
+    margin: 0 auto;
+}
+
+/* FOOTER */
+
+.foot {
+    height: 90px;
+    background-color: #1aa159;
+}
+
+.foot p{
+    font-size: 13px;
+    font-weight: lighter;
+    color: white;
+}
+
+.copyright {
+    float:left;
+}
+
+.terms {
+    float: right;
+}
+
+.privacy {
+    margin-left: 20px;
+    float: right;
+}
