@@ -1,0 +1,6 @@
+<!ELEMENT christ (album+)>
+<!ELEMENT cs (stu-name,stu-branch,stu-college,stu-email)>
+<!ELEMENT stu-name (#PCDATA)>
+<!ELEMENT stu-branch (#PCDATA)>
+<!ELEMENT stu-college (#PCDATA)>
+<!ELEMENT stu-email (#PCDATA)>

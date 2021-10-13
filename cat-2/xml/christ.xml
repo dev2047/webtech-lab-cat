@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE discography SYSTEM "discography.dtd"> -->
+<?xml-stylesheet type="text/xsl" href="christ.xsl"?>
+<christ>
+    <cs>
+        <stu-name>Dev Yadav</stu-name>
+        <stu-branch>Computer Science</stu-branch>
+        <stu-college>Christ (Deemed to be University)</stu-college>
+        <stu-email>dev.yadav@cs.christuniversity.in</stu-email>
+    </cs>
+    <cs>
+        <stu-name>S Rudresh</stu-name>
+        <stu-branch>Computer Science</stu-branch>
+        <stu-college>Christ (Deemed to be University)</stu-college>
+        <stu-email>rudresh.s@cs.christuniversity.in</stu-email>
+    </cs>
+    <cs>
+        <stu-name>Aman Prateek</stu-name>
+        <stu-branch>Business Studies</stu-branch>
+        <stu-college>Presidency University</stu-college>
+        <stu-email>aman.prateek@mba.presidency.in</stu-email>
+    </cs>
+</christ>

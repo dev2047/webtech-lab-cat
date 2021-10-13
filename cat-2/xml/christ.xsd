@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="christ">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="cs" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="stu-name" type="xs:string"/>
+                            <xs:element name="stu-branch" type="xs:string"/>
+                            <xs:element name="stu-college" type="xs:string"/>
+                            <xs:element name="stu-email" type="xs:stringr"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
